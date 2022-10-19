@@ -105,3 +105,27 @@ main {
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    body { 
+        font-size: 1.2em;
+    }
+
+    main {
+        display: block;
+    
+        section {   
+            width: calc(100% -  2em);
+        }
+
+        h3 {
+            a {
+                font-size: 1.2em;
+            }
+        }
+    
+        li:not(:last-of-type) {
+            margin-bottom: 2em;
+        }
+    }
+}
